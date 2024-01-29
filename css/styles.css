@@ -751,6 +751,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 .modal-input:focus + .modal-icon {
     fill: #4D5AE5;
+    border-color: #4D5AE5;
   }
 
 .model-field-comment{
