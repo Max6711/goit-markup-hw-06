@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>hm6</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,9 +35,82 @@
                 <li class="header-link-itemsc"><a href="tel:+110001111111" class="header-itemsc">+11 (000) 111-11-11</a></li>
             </ul>
         </address>
+
+        <button type="button" class="open-menu-btn" >
+            <svg  width="24" height="24">
+              <use href="./images/sds.svg#icon-hero-icons"></use>
+            </svg>
+          </button>
+          <div class="mob-menu ">
+            <button type="button" class="mob-close-btn" >
+              <svg class="modal-close-icon" width="24" height="24">
+                <use href="./images/sds.svg#icon-close"></use>
+              </svg>
+            </button>
+            <nav>
+            <ul class="mob-nav-list">
+            <li>
+              <a class="mob-nav-link-blue" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="mob-nav-link" href="">Portfolio</a>
+            </li>
+            <li>
+              <a class="mob-nav-link" href="">Contacts</a>
+            </li>
+            </ul>
+            </nav>
+        
+          <address class="mob-address">
+            <ul class="mob-adress-list">
+              <li>
+                <a class="mob-adress-link-blue" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                
+              </li>
+              <li>
+                <a class="mob-adress-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+            </ul>
+          </address>
+          <ul class="mob-social-icons-container">
+            <!-- soc-icon-1 -->
+            <li class="mob-item">
+            <a href="" class="link">
+            <svg width="24" height="24" class="scthree-svg">
+            <use href="./images/icons.svg#icon-instagram-22"></use>
+            </svg>
+            </a>
+            </li>
+            <!-- soc-icon-2   -->
+            <li class="mob-item">
+            <a href="" class="link">
+            <svg width="" height="" class="scthree-svg"  >
+            <use href="./images/icons.svg#icon-twitter11"></use>
+            </svg>
+            </a>
+            </li>
+            <!-- soc-icon-3 -->
+            <li class="mob-item">
+            <a href="" class="link">
+            <svg width="" height="" class="scthree-svg" >
+            <use href="./images/icons.svg#icon-facebook33"></use>
+            </svg>
+            </a>
+            </li>
+            <!-- soc-icon-4 -->
+            <li class="mob-item">
+            <a href="" class="link">
+            <svg width="" height="" class="scthree-svg" >
+            <use href="./images/icons.svg#icon-linkedin44"></use>
+            </svg>
+            </a>
+            </li>
+            </ul>
+          </div>
+
             </div>
     </header>
-
+    
     <main>
         <section class="middle-part">
             <div class="container">
@@ -307,52 +381,150 @@
             <ul class="thrd_ul">
                 <li class="thrd_li">
                     <div class="portfolio_list_wrap" >
+
+                        <picture>
+                            <source srcset="./images/img5.jpg  1x,
+                            ./images/img5.jpg 2x" 
+                            media="(min-width: 1158px)"
+                            />
+                
+                            <source srcset="./images/img5.jpg  1x, 
+                            ./images/App-tablet.jpg 2x" 
+                            media="(min-width: 768px)"
+                            />
+                          
+                            <source srcset="./images/img5.jpg  1x, 
+                            ./images/App-mob.jpg 2x" 
+                            media="(min-width: 320px)"
+                            />
+
                          <img class="portfolio_list_img" src="./images/img5.jpg" width="360" height="300" alt="App">
+                        </picture>
                         <p class="portfolio_list_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                   
                     <div class="thrd_div"><h3 class="text-sv">Banking App</h3>
                     <p class="text-et">App</p>
                 </div></li>
+
+
                 <li class="thrd_li">
                     <div class="portfolio_list_wrap">
+
+
+                        <picture>
+                            <source srcset="./images/img6.jpg  1x, 
+                            ./images/img6.jpg 2x" 
+                            media="(min-width: 1158px)"/>
+                          
+                            <source srcset="./images/img6.jpg  1x, 
+                            ./images/cashless-tablet.jpg 2x" 
+                            media="(min-width: 768px)"/>
+                          
+                            <source srcset="./images/img6.jpg  1x, 
+                            ./images/cashless-mob.jpg 2x" 
+                            media="(min-width: 320px)"/>
+          
+                            
                         <img class="portfolio_list_img" src="./images/img6.jpg" width="360" height="300" alt="Marketing">
+                        </picture>
                         <p class="portfolio_list_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                    
                     <div class="thrd_div"><h3 class="text-sv">Cashless Payment</h3>
                     <p class="text-et">Marketing</p>
                 </div></li>
+
+
                 <li class="thrd_li">
                     <div class="portfolio_list_wrap">
+                        <picture>
+                            <source srcset="./images/img7.jpg 1x, 
+                            ./images/img7.jpg 2x" 
+                            media="(min-width: 1158px)"/>
+                
+                            <source srcset="./images/img7.jpg 1x, 
+                            ./images/computer-tablet.jpg 2x" 
+                            media="(min-width: 768px)"/>
+                
+                            <source srcset="./images/img7.jpg 1x, 
+                            ./images/computer-mob.jpg 2x" 
+                            media="(min-width: 320px)"/>
                        <img class="portfolio_list_img" src="./images/img7.jpg" width="360" height="300" alt="Med-App"/>
+                       </picture>
                         <p class="portfolio_list_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                    
                     <div class="thrd_div"><h3 class="text-sv">Meditation App</h3>
                     <p class="text-et">App</p>
                 </div></li>
+
                 <li class="thrd_li"> 
                     <div class="portfolio_list_wrap">
+                        <picture>
+                            <source srcset="./images/img8.jpg 1x, 
+                            ./images/img8.jpg 2x" 
+                            media="(min-width: 1158px)"/>
+                          
+                            <source srcset="./images/img8.jpg 1x, 
+                            ./images/taxi-tablet.jpg 2x" 
+                            media="(min-width: 768px)"/>
+                          
+                            <source srcset="./images/img8.jpg 1x, 
+                            ./images/taxi-mob.jpg 2x" 
+                            media="(min-width: 320px)"/>
+                          
                       <img class="portfolio_list_img" src="./images/img8.jpg" width="360" height="300" alt="Med-App">
+                        </picture>
                         <p class="portfolio_list_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                    
                     <div class="thrd_div"><h3 class="text-sv">Taxi Service</h3>
                     <p class="text-et">Marketing</p>
                 </div></li>
+
+
                 <li class="thrd_li">
                     <div class="portfolio_list_wrap">
+                        <picture>
+                            <source srcset="./images/img9.jpg 1x, 
+                            ./images/img9.jpg 2x" 
+                            media="(min-width: 1158px)"/>
+                          
+                            <source srcset="./images/img9.jpg 1x, 
+                            ./images/screen-tablet.jpg 2x" 
+                            media="(min-width: 768px)"/>
+                          
+                            <source srcset="./images/img9.jpg 1x, 
+                            ./images/screen-mob.jpg 2x" 
+                            media="(min-width: 320px)"/>
+                          
                         <img class="portfolio_list_img" src="./images/img9.jpg" width="360" height="300" alt="Med-App">
+                        </picture>
                         <p class="portfolio_list_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                   
                     <div class="thrd_div"><h3 class="text-sv">Screen Illustrations</h3>
                     <p class="text-et">Design</p>
                 </div></li>
+
                 <li class="thrd_li">
                     <div class="portfolio_list_wrap">
+                        <picture>
+                            <source srcset="./images/img10.jpg 1x, 
+                            ./images/img10.jpg 2x" 
+                            media="(min-width: 1158px)"/>
+                          
+                            <source srcset="./images/img10.jpg 1x, 
+                            ./images/woman-tablet.jpg 2x" 
+                            media="(min-width: 768px)"/>
+                          
+                            <source srcset="./images/img10.jpg 1x, 
+                            ./images/woman-mob.jpg 2x" 
+                            media="(min-width: 320px)"/>
+                          
                       <img  class="portfolio_list_img" src="./images/img10.jpg" width="360"  height="300" alt="Med-App">
+                        </picture>
                         <p class="portfolio_list_text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                     </div>
                    
