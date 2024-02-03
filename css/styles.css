@@ -752,7 +752,7 @@ padding-left: 16px;
     border: none;
 }
 
-.modal-close-icon {
+.modal-close{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1626,7 +1626,7 @@ background-color: #404BBF;
     fill: #FFFFFF;
 }
 
-.mob-nav-list{
+.mobile-nav-list{
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -1637,7 +1637,7 @@ background-color: #404BBF;
     margin-bottom: 40px;
     
 }
-.mob-adress-list {
+.mob-list {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -1683,11 +1683,11 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
 
     }
-.mob-item{
+.mobile-item{
     width: 40px;
     height: 40px;
 }
-.mob-social-icons-container {
+.mob-icons-container{
     display: flex;
     gap: 40px;
 }
